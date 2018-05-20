@@ -1,0 +1,339 @@
+@media screen and (min-width:1200px){
+body{
+    text-align:center;
+    
+}
+
+header{
+    background-size: cover;
+    position: relative;
+    height: 218px;
+    width: 1366px;
+}
+.greyline{
+    height: 50px;
+    background:rgb(241, 241, 241);
+    position: relative;
+    width: 100%;
+}
+.grey_left{
+    margin-left: 150px;
+    margin-top: 10px;
+    position: absolute;
+  
+}
+.grey_social{
+    margin-left: 900px;
+    margin-top: 2px;
+    display: flex;
+    position: inherit;
+}
+
+.grey_social > a {
+    padding:16px;
+    height:15px; border-top:26px;
+    border-left: 1px solid   rgb(99, 96, 96);
+ 
+}
+.grey_social > a:last-of-type {
+    border-right: 1px solid rgb(99, 96, 96);
+ 
+}    
+
+.menu{
+    position: relative; text-align: left;
+    width: 1366px;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(192, 192, 192); 
+
+}
+.menu-nav1{
+    margin-left: 110px;
+    margin-top: 10px; 
+
+}
+.menu-nav1 > a{
+    padding: 11px;
+    margin-left: 11px;
+    border-left: 1px solid   rgb(192, 192, 192);
+    padding-left: 15px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: #6d6e71;
+    font-size: 0.9rem;
+ }
+
+.menu-nav1 > a:first-of-type  {
+    border-left: none;
+    
+} 
+
+.menu-nav1 > a:last-of-type  {
+    border-left: none;  
+}
+
+.menu-nav1 > a:focus::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #1faae2;
+    
+}
+.menu-nav1 > a:active{
+    color: #1faae2;
+}
+
+.menu-nav1 > a:focus:hover{
+    color: #1faae2;
+}
+.menu-nav1 > a:hover{
+    color: #1faae2;
+}
+
+
+
+article{
+    text-align: center;
+    height: 600px; 
+    background: url(icon/bg.png);background-size:100% 600px; 
+    background-repeat: no-repeat;     
+    width: 1366px;
+    position: relative;
+    
+ }
+
+.content{
+    position: relative;
+    margin-left: 110px; padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.content1{
+    border-image: 10px;
+    position: relative;
+    height: 261px;
+    width:455px; 
+    margin-left: 50px; padding: 10px;
+}
+.logo{
+    padding-top: 18px;
+    text-align: center;
+    margin-left: -55%;
+    position: relative;
+     
+}
+.geo{
+    position: relative;
+    margin-top:-44px;
+    margin-left: 65%;
+    padding-bottom: 22px;
+    
+}
+
+.geo > .geo1:hover:after {
+    content: url("icon/place.png");
+    position: absolute;
+    top: -64px;
+    left: 270px;
+}
+.geo > a { 
+    margin-left: 11px;
+    border-left: 1px solid   rgb(192, 192, 192);
+    padding-left: 15px;
+ }
+  .geo > a:first-of-type {
+    border-left: none;
+}    
+
+td > img{
+    margin-top:-100px;
+}
+h2{
+color: gray;
+}
+
+td > p{
+    color: gray;  
+}
+.title{
+    position: relative;
+    margin-left:211px;
+    padding-top: 80px;
+    padding-left: 30px;
+    color: ghostwhite;
+    font-size: 50px;
+}
+
+.ttt {
+    margin-top:115px;
+    margin-left:-303px; 
+    z-index:1; position: absolute;
+}
+
+.abb{
+    margin-top: -80px;
+    margin-left: 140px; font-size: 2.5rem;
+}
+.yyy{
+    position: relative;
+    z-index:2 ;
+}
+.icon-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 45%;
+    margin-top: 126px;
+    size: 66%;
+}
+.icon-nav > a > img{
+    width: 180px;
+    height: 122px;;
+}
+.icon-nav > a > img[alt="next"]{
+    width: 50px;
+    height: 122px;;
+}
+
+
+footer{
+    position: relative;
+}
+
+.search {
+    position: relative;
+    padding: 30px 0 25px 40px;
+}
+.search > input {
+        padding-right: 10px;
+        margin-left: 45px;
+        border: none;
+        font-size: 0.8rem;
+     
+    }
+
+    .search > input[type="image"] {
+        position: absolute;
+        top: 8px;
+        left: -15px;
+    }
+.m_menu{
+ display: none;
+ }
+ .m_search{
+    display: none;
+    }
+
+}
+
+@media(max-width:1199px){
+    html{
+        text-align: center;
+    }
+    header {
+        height: 111px;
+    }
+    .icon-nav{
+        display: none;
+    }
+    .menu-nav1{
+        display: none;
+    }
+    header{
+    position: relative;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    
+    text-align: left;
+    }
+    .greyline{
+        display: none;
+    }
+    .geo{
+        display: none;
+    }
+    .m_menu{position: relative;
+    left: 
+    
+    }
+    .logo{
+        position: relative;
+        left: 321px;
+        margin-top: -110px;
+        
+        
+    }
+    .article{
+        
+       
+    position: relative;
+     
+
+    }
+    .title{
+        margin-top: -48px;
+        position: relative;
+        text-align: center;
+        background: url(icon/bg.png); background-size:120% 100%; 
+        height: 400px; width:1199px;
+        color: white; background-repeat: no-repeat;  
+        font-size: 2.9rem;
+        
+    }
+    .ttt{
+        position: absolute;
+        margin-top:90px;
+        left:259px;
+        color: white;
+        z-index: 0;
+    }
+    .yyy{position: absolute;
+        z-index: 1;
+        left:250px;
+    }
+
+    .abb{ top:130px;position: relative;  z-index: 1;
+        left:50px;
+
+
+        
+    }
+    footer{left:100px;
+        position: relative;
+        text-align: center;
+        height: 400px;
+        weight:400px;
+    }
+ .menu{
+    position: absolute;
+    
+
+ }
+ .m_search{
+    position: relative;
+    left: 911px;
+    top: -40px;
+   
+ }
+ .m_search > input {
+    padding-right: 10px;
+    margin-left: 5px;
+    border: none;
+    font-size: 0.8rem;
+ 
+}
+.content{
+    
+    width: 900px;
+}
+td {
+    text-align: left;
+}
+
+    
+}
